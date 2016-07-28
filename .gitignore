@@ -17,3 +17,4 @@
 /tmp
 
 /node_modules
+/db/seeds.rb
