@@ -46,13 +46,10 @@
 
 	var React = __webpack_require__(1);
 	var ReactDom = __webpack_require__(158);
+	var Main = __webpack_require__(159);
 	
 	document.addEventListener('DOMContentLoaded', function () {
-	  ReactDom.render(React.createElement(
-	    'div',
-	    null,
-	    'hello'
-	  ), document.getElementById('content'));
+	  ReactDom.render(React.createElement(Main, null), document.getElementById('content'));
 	});
 
 /***/ },
@@ -19687,6 +19684,26 @@
 	
 	module.exports = __webpack_require__(3);
 
+
+/***/ },
+/* 159 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var React = __webpack_require__(1);
+	
+	var Main = React.createClass({
+	  displayName: "Main",
+	
+	  render: function () {
+	    return React.createElement(
+	      "div",
+	      { className: "main" },
+	      "This is the main page"
+	    );
+	  }
+	});
+	
+	module.exports = Main;
 
 /***/ }
 /******/ ]);
