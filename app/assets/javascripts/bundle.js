@@ -19690,20 +19690,108 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(1);
+	var NavBar = __webpack_require__(160);
 	
 	var Main = React.createClass({
-	  displayName: "Main",
+	  displayName: 'Main',
 	
 	  render: function () {
 	    return React.createElement(
-	      "div",
-	      { className: "main" },
-	      "This is the main page"
+	      'div',
+	      { className: 'main' },
+	      React.createElement(NavBar, null)
 	    );
 	  }
 	});
 	
 	module.exports = Main;
+
+/***/ },
+/* 160 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var React = __webpack_require__(1);
+	
+	var NavBar = React.createClass({
+	  displayName: "NavBar",
+	
+	  render: function () {
+	    return React.createElement(
+	      "nav",
+	      { className: "nav-bar" },
+	      "LYNN PUTNEY",
+	      React.createElement(
+	        "ul",
+	        { className: "nav-tabs" },
+	        React.createElement(
+	          "li",
+	          null,
+	          React.createElement(
+	            "a",
+	            { href: "#" },
+	            "Home"
+	          )
+	        ),
+	        React.createElement(
+	          "li",
+	          null,
+	          React.createElement(
+	            "a",
+	            { href: "#" },
+	            "Recent Work"
+	          )
+	        ),
+	        React.createElement(
+	          "li",
+	          null,
+	          React.createElement(
+	            "a",
+	            { href: "#" },
+	            "Casein Paintings"
+	          )
+	        ),
+	        React.createElement(
+	          "li",
+	          null,
+	          React.createElement(
+	            "a",
+	            { href: "#" },
+	            "Eleven"
+	          )
+	        ),
+	        React.createElement(
+	          "li",
+	          null,
+	          React.createElement(
+	            "a",
+	            { href: "#" },
+	            "VCCA"
+	          )
+	        ),
+	        React.createElement(
+	          "li",
+	          null,
+	          React.createElement(
+	            "a",
+	            { href: "#" },
+	            "About"
+	          )
+	        ),
+	        React.createElement(
+	          "li",
+	          null,
+	          React.createElement(
+	            "a",
+	            { href: "#" },
+	            "Contact"
+	          )
+	        )
+	      )
+	    );
+	  }
+	});
+	
+	module.exports = NavBar;
 
 /***/ }
 /******/ ]);
