@@ -27,6 +27,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bcrypt', '~> 3.1.7'
 gem 'pry-rails'
 gem 'annotate'
+gem 'carrierwave'
+gem 'cloudinary'
 # Use Unicorn as the app server
 # gem 'unicorn'
 

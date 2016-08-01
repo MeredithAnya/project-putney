@@ -1,0 +1,18 @@
+development:
+  cloud_name: megadee
+  api_key: '477123319758893'
+  api_secret: yebTbw-tlUYBQAYGRvBtPouXRac
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: megadee
+  api_key: '477123319758893'
+  api_secret: yebTbw-tlUYBQAYGRvBtPouXRac
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: megadee
+  api_key: '477123319758893'
+  api_secret: yebTbw-tlUYBQAYGRvBtPouXRac
+  enhance_image_tag: true
+  static_image_support: false
